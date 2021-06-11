@@ -11,9 +11,9 @@ revString("deepti");
 // type 2
 const revString = (str) => {
 	let reversed='';
-	for(let c of str){
-  	reversed = c + reversed;
-  }
+	for(let c of str) {
+  		reversed = c + reversed;
+  	}
   console.log(reversed);
 }
 
